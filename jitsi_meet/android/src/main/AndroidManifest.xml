@@ -6,8 +6,8 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
             android:launchMode="singleTask"
             android:resizeableActivity="true"
-            android:supportsPictureInPicture="true"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:supportsPictureInPicture="false"
+            android:theme="@style/AppTheme"
             android:windowSoftInputMode="adjustResize">
         </activity>
     </application>
