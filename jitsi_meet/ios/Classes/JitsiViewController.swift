@@ -68,8 +68,8 @@ class JitsiViewController: UIViewController {
             builder.serverURL = self.serverUrl
             // builder.subject = self.subject
             builder.userInfo = self.jistiMeetUserInfo
-            builder.setVideoMuted(self.videoMuted)
-            builder.setAudioMuted(self.audioMuted)
+            builder.setVideoMuted(self.videoMuted ?? false)
+            builder.setAudioMuted(self.audioMuted ?? false)
             // builder.audioOnly = self.audioOnly ?? false
             // builder.audioMuted = self.audioMuted ?? false
             // builder.videoMuted = self.videoMuted ?? false
